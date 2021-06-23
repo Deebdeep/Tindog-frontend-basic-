@@ -1,0 +1,224 @@
+/* -------------------------------TITLE----------------------------------------- */
+
+body {
+  font-family: 'Montserrat-black', sans-serif;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+  padding: 3% 11% 10%;
+}
+
+.first-line {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: white;
+}
+/* -------------------------------------------NAVIGATION BAR-------------------------------------------------- */
+
+#navbar {
+  padding-bottom: 3.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-Link {
+  font-family: "Montserrat-light";
+  font-size: 1.5rem;
+}
+/* -------------------------------------------NAVIGATION BAR-END-------------------------------------------------- */
+.Download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.iphone6 {
+  width: 23%;
+  transform: rotate(25deg);
+  right: 20%;
+  position: absolute;
+}
+
+@media(max-width : 993px) {
+  .iphone6 {
+    position: static;
+    transform: rotate(0deg);
+    width: 40%;
+  }
+
+  .first-line {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: white;
+  }
+
+  #title {
+    text-align: center;
+    padding: 3% 9% 7%;
+  }
+}
+
+/* -------------------------------------------TITLE-END-------------------------------------------------- */
+/* ---------------------------------------------freatures---------------------------------------------------------------------------- */
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 6%;
+  line-height: 2;
+}
+
+h3 {
+  font-family: "Montserrat";
+}
+
+p {
+  font-weight: 600;
+  color: grey;
+  margin: 17%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* ---------------------------------------------freatures-END---------------------------------------------------------------------------- */
+/* ------------------------------------------------------TESTIMONIALS-------------------------------------- */
+#testimonials {
+  background-color: #ff4c68;
+  text-align: center;
+  color: white;
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  margin: 2px;
+  width: 10%;
+}
+
+.testimonial-text1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 3%;
+}
+
+.testimonial-text2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 3%;
+}
+
+.carousel-inner {
+  padding: 7% 15%;
+}
+
+/* /* ------------------------------------------------------TESTIMONIALS-END------------------------------------- */
+ */
+/* ----------------------------------------------------------------------PRESS-------------------------------------------- */
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  line-height: 1.5;
+  padding: 3%;
+}
+
+.press-logo {
+  width: 19%;
+  padding: 4%;
+}
+
+/* /* ----------------------------------------------------------------------PRESS-END-------------------------------------------- */
+/* ----------------------------------------------------------------------PRICING-------------------------------------------- */
+
+
+PRICING */
+#pricing {
+  text-align: center;
+  padding: 3% 2%;
+}
+
+.columns {
+  padding: 100px;
+}
+
+.column-heading {
+  font-family: "Ubuntu";
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.card-top {
+  font-family: "Montserrat";
+  font-weight: 700;
+  width: 100%;
+}
+
+.card-header {
+  background-color: #ef8172;
+}
+/* ----------------------------------------------------------------------PRICING-END-------------------------------------------- */
+
+/* ----------------------------------CALL TO ACTION------------------------------------- */
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 7% 15%;
+}
+
+.cta-line {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-size: 3.0rem;
+  font-weight: 900;
+  color: white;
+}
+/* ----------------------------------CALL TO ACTION-END------------------------------------ */
+
+/* ----------------------FOOTER-----------------------------------------------00 */
+#footer {
+  text-align: center;
+  color: black;
+  background-color: white;
+  padding: 3% 7%;
+}
+
+.jio {
+  margin: 20px 10px;
+}
+
+@media(max-width: 993px) {
+  .cta-line {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-size: 2.0rem;
+    font-weight: 900;
+    color: white;
+  }
+}
+/* ----------------------FOOTER-----------------------------------------------00 */
+/* -------------------END-------------------- */
